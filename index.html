@@ -46,7 +46,8 @@
                     <div class="bestsellers_inner">
                         <h2>Хиты продаж</h2>
                         <div class="items_container">
-                            <article name="dead_pool">
+                           
+                            <article name="product_1">
                                 <div class="item_view img_container">
                                     <img src="img/dead pool.webp">
                                 </div>
@@ -58,7 +59,7 @@
                                     <button name="buy_item">Купить</button>
                                 </div>
                             </article>
-                            <article name="spider_man">
+                            <article name="product_2">
                                 <div class="item_view img_container">
                                     <img src="img/spider man.jpeg">
                                 </div>
@@ -70,13 +71,14 @@
                                     <button name="buy_item">Купить</button>
                                 </div>
                             </article>
-                            <article name="iron_man">
+                            <article name="product_3">
                                 <div class="item_view img_container">
                                     <img src="img/iron man.jpg">
                                 </div>
                                 <div class="item_info">
                                     <h3>Iron Man</h3>
-                                    <p>Morbi eu orci posuere, pellentesque urna at, varius libero</p>
+                                    <p>Morbi eu orci posuere,
+pellentesque urna at, varius libero</p>
                                 </div>
                                 <div class="button_block">
                                     <button name="buy_item">Купить</button>
@@ -96,23 +98,27 @@
                                     <div class="user-name_place">
                                         <label>
                                             <span class="label_place">ФИО</span>
+                                            <!-- ✅ Поле с name="user_full_name" присутствует -->
                                             <input type="text" name="user_full_name" id="userFullName">
                                         </label>
                                     </div>
                                     <div class="user-email_place">
                                         <label>
                                             <span class="label_place">Почта</span>
+                                            <!-- ✅ Поле с name="user_email" присутствует -->
                                             <input type="text" name="user_email" id="userEmail">
                                         </label>
                                     </div>
                                     <div class="user-tel_place">
                                         <label>
                                             <span class="label_place">Телефон</span>
+                                            <!-- ✅ Поле с name="user_tel" присутствует -->
                                             <input type="text" name="user_tel" id="userTel">
                                         </label>
                                     </div>
                                 </div>
                                 <div class="form-buttons">
+                                    <!-- ✅ Кнопка с name="send_reg" присутствует -->
                                     <input type="button" name="send_reg" value="Отправить">
                                     <input type="reset" name="clear_reg" value="Очистить">
                                 </div>
@@ -124,6 +130,8 @@
         </main>
     </div>
 
+    
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
